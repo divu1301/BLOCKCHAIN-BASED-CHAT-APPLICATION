@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkSendMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Desktop/BLOCKCHAT/tests/Blockchainchat_test.sol": "BlockchainChatTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Desktop/BLOCKCHAT/blockchainchat.sol": {
+			"keccak256": "0xd7837d5045b3da307cf2c8e8da5d3a4506e512c6e0c38794e3053c7601ff56e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad39b2a5a2ab680e72bb3fb1565cee34bb295be418f596716ff67e1b85bc310a",
+				"dweb:/ipfs/QmWVaLJXuqoZ47Jga3iswMggqeVCeZLVee5sAyhEtCeycf"
+			]
+		},
+		"Desktop/BLOCKCHAT/tests/Blockchainchat_test.sol": {
+			"keccak256": "0xbae4be6cb2877c1ad43262a314bb3a7a9da1250f670db2521519cf090ed99ecf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://746674001fb92372ebf189fd49955b7e9b56e0a0f00f2d5623a4685a1083f552",
+				"dweb:/ipfs/QmdPwTS7TxEJrToBcixZJsEoxDkZThqeCyGBMXYiWJwbJ2"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		}
+	},
+	"version": 1
+}
